@@ -39,6 +39,11 @@ Error handling:
 - http://blog.burntsushi.net/rust-error-handling/
 - Stack trace: https://crates.io/crates/backtrace
 
+Example programs:
+- Guessing Game (full tutorial) - https://doc.rust-lang.org/book/second-edition/ch02-00-guessing-game-tutorial.html
+- Monte Carlo estimation of π - https://doc.rust-lang.org/rand/rand/index.html#monte-carlo-estimation-of-π
+- Monty Hall Problem - https://doc.rust-lang.org/rand/rand/index.html#monty-hall-problem
+
 Common data structures:
 - Vectors (lists):
   - https://doc.rust-lang.org/stable/book/second-edition/ch08-01-vectors.html
@@ -102,6 +107,9 @@ Mocking:
 - API mocking: https://github.com/jmatraszek/haxonite
 
 Command line parsing:
+- CLAP
+  - https://crates.io/crates/
+  - http://zsiciarz.github.io/24daysofrust/book/vol2/day12.html
 - https://crates.io/crates/docopt
 
 Serialization:
@@ -125,7 +133,9 @@ Windows Service:
 - https://github.com/bozaro/daemon-rs
 
 Windows:
-- Windows Registry: https://github.com/gentoo90/winreg-rs
+- Windows Registry:
+  - https://crates.io/crates/winreg ([github](https://github.com/gentoo90/winreg-rs))
+  - http://zsiciarz.github.io/24daysofrust/book/vol2/day9.html
 - Win32 API:
   - https://crates.io/crates/winapi
   - https://crates.io/crates/kernel32-sys
@@ -217,9 +227,6 @@ Other:
 - Cuckoo Filter (set membership, like a Bloom Filter): https://crates.io/crates/cuckoofilter
 - SQL AST: https://github.com/OsnaCS/uosql-server/blob/master/server/src/parse/ast.rs
 - Child processes: https://rustbyexample.com/std_misc/process.html
-- Command Line Argument Parsing (CLAP):
-  - http://zsiciarz.github.io/24daysofrust/book/vol2/day12.html
-  - https://github.com/kbknapp/clap-rs
 
 Regex:
 - https://doc.rust-lang.org/regex/regex/index.html
