@@ -260,3 +260,6 @@ Environment variables:
 - `use std::env;`
 - `env::var("ENV_VAR_NAME")`
 - http://zsiciarz.github.io/24daysofrust/book/vol2/day5.html
+
+CI:
+- Travis CI and AppVeyor template for Linux, macOS and Windows https://github.com/japaric/trust
